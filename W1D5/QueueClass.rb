@@ -4,7 +4,7 @@ class Queue
   end
 
   def enqueue(el)
-    @queue. << el
+    @queue << el
   end
 
   def dequeue(el)
