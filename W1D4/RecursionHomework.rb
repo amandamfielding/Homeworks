@@ -7,13 +7,13 @@ end
 
 # Exercise 2
 def add_numbers(array)
-  return array.first if array.length <= 1
+  return array[0] if array.length <= 1
   array.pop + add_numbers(array)
 end
 
 # Exercise 3
 def gamma_fnc(num)
-  return nil if num <= 0
-  return num if num == 1
+  return nil if num < 1
+  return 1 if num == 1
   (num-1) * gamma_fnc(num-1)
 end
