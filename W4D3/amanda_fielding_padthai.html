@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Pad Thai Recipe</title>
+    <meta name="description" content="The most delicious,authentic traditional pad thai dish. Simple, easy recipe.">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src = 'script.js'></script>
+  </head>
+  <header>
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTUHbu3GD6HstFFFXV5JEmRuo3bHREBBe1MumElfyqOQanLkak9YQ"/>
+    <nav>
+      <ul>
+        <li><a href="#Ingredients">Ingredients</a> </li>
+        <li><a href="#Directions">Directions</a> </li>
+      </ul>
+    </nav>
+  <head>
+    <meta charset="utf-8">
+    <title>Amanda Fielding Recipe</title>
+  </head>
+</header>
+  <body>
+    <h1>Pad Thai</h1>
+    <section>
+    <h2>Description</h2>
+    <p>Homemade Pad Thai noodles with shrimp, tofu, peanuts in savory sweet sauce.
+      The best and easiest Pad Thai recipe ever! Serves 2 Prep Time: 15 minutes Cook Time: 5 minutes
+    </p>
+
+    <figure>
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSQP-xuBWAT0t-fXgCKaozCQ-Kf7S4rGd68X9Jp--y3waj-qUopsSIIJfWo"/>
+    <figcaption>
+      <a href="https://en.wikipedia.org/wiki/Pad_Thai">All about Pad Thai</a>
+    </figcaption>
+  </figure>
+    <h2>Ingredients</h2>
+    <a name="Ingredients"/>
+    <aside>
+    <ul>
+      <li>4 oz packaged rice noodles</li>
+      <li>2 tablespoons oil</li>
+      <li>1 clove garlic, finely minced</li>
+      <li>4 oz medium-sized shrimp, shelled and deveined</li>
+      <li>1 large egg</li>
+      <li>6 oz bean sprouts</li>
+      <li>2 tbls crushed peanuts</li>
+      <li>lime wedges</li>
+    </ul>
+  </aside>
+    <h2>Directions</h2>
+    <a name="Directions"/>
+    <ol>
+      <li>boil noodles</li>
+      <li>add oil to heated skillet</li>
+      <li>add garlic</li>
+      <li>add shrimp</li>
+      <li>add noodles</li>
+      <li>push ingredients aside and add egg to empty section</li>
+      <li>combine with sauces, sprouts, chives and peanuts</li>
+      <li>serve with lime wedges</li>
+    </ol>
+  </section>
+
+  <section id = "reviews">
+    <h2>Reviews</h2>
+    <form action="/reviews" method="post">
+      <label for="name">Name</label>
+      <input id="name" type="text" name="name">
+      <label for="rating">Rating</label>
+      1<input type="radio" name="rating" value="1" checked>
+      2<input type="radio" name="rating" value="2">
+      3<input type="radio" name="rating" value="3">
+      4<input type="radio" name="rating" value="4">
+      5<input type="radio" name="rating" value="5">
+
+      <label for="expertise">Cooking Expertise</label>
+      <select id="expertise" name="expertise">
+          <option value="Select Cooking Expertise" disabled="true" selected="true">Select Cooking Experise</option>
+          <option value="Sometimes Cook">Sometimes Cook</option>
+          <option value="Cook Everyday">Cook Everyday</option>
+          <option value="Cooking is a Hobby">Cooking is a Hobby</option>
+          <option value="Professional Chef">Professional Chef</option>
+        </select>
+
+        <label>Review
+          <textarea name="review" cols="30" rows="10"></textarea>
+        </label>
+        <input type="submit" value="Submit Review">
+      </form>
+  </section>
+  <footer>
+    <p>Recipe courtesy of Nongkran Daks</p>
+    Recipe from <a href="http://rasamalaysia.com/pad-thai/">Rasa Malaysia</a>
+  </footer>
+  </body>
+  <script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-12345678-9', 'auto');
+ga('send', 'pageview');
+  </script>
+</html>
