@@ -1,0 +1,30 @@
+body {
+  font-family: Arial,sans-serif;
+}
+
+h1 {
+  font-size: 38px;
+}
+h2 {
+  font-size: 32px;
+}
+.ingredients-list {
+  list-style: square inside;
+}
+.directions-list {
+  list-style: circle;
+  background: gray;
+}
+img > header {
+  width: 5px;
+}
+
+input,select {
+  cursor: pointer;
+  outline: none;
+}
+
+input[type="submit"]:hover {
+  background-color: gold;
+  -webkit-filter: brightness(90%);
+}
